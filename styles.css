@@ -2,6 +2,7 @@ body {
     color: gray;
     font-size: 14px;
     font-family:'Times New Roman', Times, serif;
+    
 }
 
 h1 {
@@ -18,4 +19,8 @@ h2 {
 img {
     border: 5px pink solid;
     zoom: 200%;
+}
+
+.right-aligned {
+    float: right;
 }
