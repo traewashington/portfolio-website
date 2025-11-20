@@ -18,10 +18,12 @@ h2 {
 
 img {
     border: 5px pink solid;
+    margin: 10px;
     zoom: 100%;
+ 
     
 }
 
 .text-container {
-    margin: 20px
+    display: flex;;
 }
