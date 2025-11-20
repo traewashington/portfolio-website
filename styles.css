@@ -7,19 +7,19 @@ body {
 
 h1 {
     font-family:'Times New Roman', Times, serif;
-    font-size: 40px
+    font-size: 50px
 }
 
 h2 {
     font-family:'Times New Roman', Times, serif;
     font-size: 20px;
+    
     font-weight: bold;
 }
 
 img {
-    border: 10px rgb(238, 169, 191) double;
+    border: 10px rgb(241, 210, 220) double;
     zoom: 100%;
-    display: left;
     
 }
 
