@@ -18,8 +18,8 @@ h2 {
 
 img {
     border: 10px rgb(238, 169, 191) double;
-    margin: 10px;
     zoom: 100%;
+    display: left;
     
 }
 
