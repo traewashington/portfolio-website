@@ -18,9 +18,10 @@ h2 {
 
 img {
     border: 5px pink solid;
-    zoom: 200%;
+    zoom: 100%;
+    
 }
 
-.right-aligned {
-    float: right;
+.text-container {
+    margin: 20px
 }
