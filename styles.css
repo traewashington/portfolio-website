@@ -17,6 +17,10 @@ h2 {
     font-weight: bold;
 }
 
+link {
+    font-size: 20px;
+}
+
 img {
     border: 10px rgb(241, 210, 220) double;
     zoom: 100%;
