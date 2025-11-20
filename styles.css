@@ -1,5 +1,5 @@
 body {
-    color: gray;
+    color: black;
     font-size: 14px;
     font-family:'Times New Roman', Times, serif;
     
@@ -17,25 +17,39 @@ h2 {
 }
 
 img {
-    border: 5px pink solid;
+    border: 10px rgb(238, 169, 191) double;
     margin: 10px;
     zoom: 100%;
- 
     
 }
 
+    * {
+      box-sizing: border-box;
+    }
+
 .text-container {
     display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid rgb(238, 169, 191) ;
 }
 
-@media (max-width: 600px) { 
+@media (min-width: 1000px) { 
     body {
  background-color: lightgray;
    }
 }
 
-@media(max-width: 1000px) {
+@media(max-width: 600px) {
     body {
     background-color: pink;
+    }
+}
+
+@media(min-width: 601px) {
+    body {
+    background-color: palevioletred;
+    margin: 50px;
     }
 }
