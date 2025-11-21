@@ -52,6 +52,10 @@ img {
   text-align: center;
 }
 
+p {
+  text-indent: 30px; /* Indents the first line by 30 pixels */
+}
+
 @media (min-width: 1000px) { 
     body {
  background-color: lightgray;
