@@ -19,13 +19,15 @@ h2 {
     font-weight: bold;
 }
 
-hr { 
-    margin: 10px
+nav a {
+    background-color: pink; 
+    overflow: hidden;
+    border: 10px pink solid;
+    position:sticky;
+
 }
 
-link {
-    font-size: 20px;
-}
+
 
 img {
     border: 10px rgb(241, 210, 220) double;
