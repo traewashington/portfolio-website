@@ -1,6 +1,6 @@
 body {
-    color: black;
-    font-size: 14px;
+    color: white;
+    font-size: 16px;
     font-family:'Times New Roman', Times, serif;
     border: 5px rgb(238, 169, 191) double;
    
@@ -30,11 +30,10 @@ nav a {
 
 }
 
-
-
 img {
     border: 10px rgb(241, 210, 220) double;
     zoom: 100%;
+    float left;
     
 }
 
@@ -43,12 +42,12 @@ img {
     flex-direction: column;
     padding: 10px;
     margin: 10px;
-    border: 5px solid rgb(238, 169, 191) ;
+    border: 10px solid rgb(238, 169, 191) ;
+    
 }
 
 .container {
     padding: 5px;
-    background-color:white;
     margin: 5px
 
 }
@@ -62,6 +61,7 @@ img {
 @media(max-width: 600px) {
     body {
     background-color: pink;
+    color: black;
     }
 }
 
